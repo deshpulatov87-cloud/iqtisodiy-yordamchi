@@ -1,0 +1,21 @@
+ai-erp-system/
+├── backend/                    # Django backend
+│   ├── config/                 # Asosiy sozlamalar
+│   ├── apps/
+│   │   ├── core/              # Til va standartlar
+│   │   ├── users/             # Foydalanuvchilar
+│   │   ├── inventory/         # Ombor (O'zDST 602, ISO 9001)
+│   │   ├── sales/             # Savdo (Soliq kodeksi)
+│   │   ├── finance/           # Moliya (XBRL, IFRS)
+│   │   ├── reports/           # Hisobotlar (Soliq.uz)
+│   │   ├── ai/                # Gemini AI integratsiyasi
+│   │   └── integrations/      # Telegram, OCR
+│   └── requirements.txt
+├── frontend/                   # React frontend
+│   ├── src/
+│   │   ├── i18n/              # 3 til tarjimalar
+│   │   ├── components/
+│   │   └── pages/
+└── docs/                       # Hujjatlar
+    ├── standards/              # Standartlar
+    └── api/                    # API hujjatlari
